@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Skybox
+  m_Shader: {fileID: -6465566751694194690, guid: b9d40e95992091f42abd627357f3146e,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BackTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DownTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FrontTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LeftTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RightTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_e3ebcadff3ca4cda8d16f3d723937858_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 0c5c0ae95dd805043ac5c1d0231a396a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _UpTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _CloudDistFade: 2.56
+    - _CloudNoiseScale: 20
+    - _DownBlendPower: 0.3
+    - _Exposure: 1
+    - _HorizonBlend: 30
+    - _NadirBlend: 1
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Rotation: 0
+    - _StarHeight: 200
+    - _StarPower: 35
+    - _TwinkleDensity: 15
+    - _TwinklePower: 2
+    - _TwinkleSpeed: 10
+    - _UpBlendPower: 0.5
+    - _ZenithBlend: 1
+    m_Colors:
+    - _CloudColor: {r: 0.31132078, g: 0.3069153, b: 0.3069153, a: 0}
+    - _CloudScale: {r: 1, g: 1, b: 0, a: 0}
+    - _CloudSpeed: {r: 0.1, g: 0.1, b: 0, a: 0}
+    - _CloudTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _DownColor: {r: 0.3207547, g: 0.31318974, b: 0.31318974, a: 0}
+    - _GroundColor: {r: 0.19215687, g: 0.13725491, b: 0.08235294, a: 0}
+    - _HorizonColor: {r: 0.24528301, g: 0.24528301, b: 0.24528301, a: 0}
+    - _SkyColor: {r: 0.1504984, g: 0.18831518, b: 0.3584906, a: 0}
+    - _Tint: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - _UpColor: {r: 0.07694019, g: 0.10283762, b: 0.122641504, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &622922793113935839
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
